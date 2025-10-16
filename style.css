@@ -1,0 +1,145 @@
+/* ====== PREMIUM ORDER PAGE ====== */
+
+.order-body {
+  background: radial-gradient(circle at top right, #fff8f1, #fef3c7, #fde68a);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.order-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.order-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  padding: 40px 50px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  animation: fadeInUp 0.7s ease-in-out;
+}
+
+.restaurant-name {
+  font-size: 2.2rem;
+  color: #b45309;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #6b4c2b;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+/* Order Summary */
+.summary {
+  background: #fff7ed;
+  border-radius: 18px;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  color: #7c2d12;
+  font-weight: 500;
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #92400e;
+  background: #fef3c7;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #fcd34d;
+  border-radius: 16px;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  background-color: #fffdf5;
+}
+
+.form-group input:focus {
+  border-color: #b45309;
+  box-shadow: 0 0 8px rgba(180, 83, 9, 0.3);
+}
+
+/* Button */
+.confirm-btn {
+  background: linear-gradient(to right, #d97706, #b45309);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 14px 0;
+  border-radius: 14px;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(180, 83, 9, 0.3);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.confirm-btn:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(to right, #b45309, #78350f);
+}
+
+/* Back Link */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #b45309;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.back-link:hover {
+  color: #78350f;
+}
+
+/* Footer */
+.order-footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #6b4c2b;
+  font-size: 0.9rem;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
