@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hero Overlay */
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 20px;
+    border-radius: 10px;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #5c3a16 !important;
+}
+
+.navbar-nav .btn-warning {
+    background-color: #f59e0b;
+    color: #111;
+    font-weight: 600;
+}
+
+/* Menu Cards */
+.menu-card {
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .menu-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+
+    .menu-card img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+.card-body .price {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-body button {
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background-color: #f3f4f6;
+    padding: 40px 20px;
+    color: #5c3a16;
+}
+
+    footer a {
+        color: #92400e;
+        margin: 0 5px;
+    }
+
+/* Cart Modal */
+#cartModal .bg-white {
+    border-radius: 15px;
+}
+
+#cartModal table {
+    margin: 0;
+}
+
+#cartModal th {
+    background-color: #f59e0b;
+    color: #fff;
+}
+
+/* About Section */
+#about p {
+    font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #eab308;
+    border: none;
+    font-weight: 600;
+}
+
+    .btn-primary:hover {
+        background-color: #ca8a04;
+    }
+
+.btn-success {
+    background-color: #10b981;
+}
+
+    .btn-success:hover {
+        background-color: #059669;
+    }
+
+/* Admin Page */
+.admin-body {
+    background-color: #fff7ed;
+    padding: 20px;
+}
+
+.admin-table thead {
+    background: #d97706;
+    color: white;
+}
+
+.admin-table tbody tr:hover {
+    background-color: #fde68a;
+}
+
+button.completed {
+    background-color: #10b981;
+    color: white;
+}
+
+button.cancelled {
+    background-color: #ef4444;
+    color: white;
+}
+
+span.pending {
+    background-color: #facc15;
+    color: #111;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
+}
